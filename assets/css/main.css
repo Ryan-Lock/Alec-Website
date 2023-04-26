@@ -1313,6 +1313,7 @@ input, select, textarea {
 				transition-delay: 0.25s;
 				padding: 3rem 2rem;
 				overflow: auto;
+				background-color: rgba(25, 25, 25, 0.2)
 			}
 
 				#header .content .inner > :last-child {
