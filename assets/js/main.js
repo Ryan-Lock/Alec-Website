@@ -399,3 +399,25 @@
 					});
 
 })(jQuery);
+
+const videoContainers = document.querySelectorAll('.video-container');
+const player = document.querySelector('.video-player');
+
+videoContainers.forEach(container => {
+    const thumbnail = container.querySelector('img');
+    const videoId = container.dataset.videoId;
+    thumbnail.addEventListener('click', () => {
+        player.style.display = 'block';
+		
+        player.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    });
+});
+
+document.addEventListener('click', event => {
+    if (!event.target.closest('.video-container')) {
+        player.style.display = 'none';
+        player.src = "";
+    }
+});
+
