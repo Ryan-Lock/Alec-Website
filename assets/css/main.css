@@ -1700,32 +1700,24 @@ input, select, textarea {
 /**ADDITIONAL**/
 /**VIDEOS**/
 .video-grid {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 10px;
-}
-
-@media screen and (max-width: 736px) {
-	.video-grid {
-		grid-template-columns: repeat(2, 1fr);
-	}
-}
-
-@media screen and (max-width: 480px) {
-	.video-grid {
-		grid-template-columns: repeat(1, 1fr);
-	}
+	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: center;
+  	gap: 5px;
+	max-width: 1400px;
 }
 
 .video-container {
-	position: relative;
+	flex-basis: 350px; width: 100%;
 }
 .video-container img {
-	width: 100%;
-	height: auto;
+	object-fit: cover;
+  	max-width: 100%;
+  	height: auto;
+  	vertical-align: middle;
 }
 .video-title {
-	
+	font-weight: 800;
 }
 .video-description {
 	
