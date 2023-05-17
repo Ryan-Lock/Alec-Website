@@ -1,15 +1,13 @@
 Portfolio website for Alec
 
 Instructions to modify:
-//Add instructions later 
 
+https://docs.google.com/document/d/15-m9PjWtA-gRx-0mb5rm4Z9p7dNisdWH5SMZUF-Lufc/edit?usp=sharing
 
 Dimension by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
 
 (* = not included)
 
@@ -18,9 +16,6 @@ aj@lkn.io | @ajlkn
 
 
 Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
 
 	Icons:
 		Font Awesome (fontawesome.io)

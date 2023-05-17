@@ -1568,7 +1568,7 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(27, 31, 34, 0.85);
+			background-color: rgba(83, 83, 83, 0.4);
 			border-radius: 4px;
 			opacity: 0;
 		}
@@ -1734,4 +1734,25 @@ input, select, textarea {
 	.video-player {
 		width: 100%;
 	}
+}
+
+/**********LINKS STYLING**********/
+
+.linkGroup{
+	display: flex;
+	flex-direction: column;
+}
+.linkGroup span{
+	padding-left: 58px;
+	margin-bottom: 20px;
+}
+
+.links{
+	display: flex;
+	align-items: center;
+	margin-right: auto;
+}
+
+.links img{
+	margin-right: 10px;
 }
